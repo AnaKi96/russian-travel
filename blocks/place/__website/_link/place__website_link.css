@@ -1,4 +1,4 @@
-.place_website-link {
+.place_website_link {
     margin: 0;
     padding: 0;
     font-family: 'Inter';
@@ -12,9 +12,8 @@
 }
 
 @media (max-width: 320px) {
-    .place_website-link {
+    .place_website_link {
         padding-left: 16px;
         padding-right: 16px;
-
     }
   }
