@@ -1,0 +1,13 @@
+.header__lang-link_selected {
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding-right: 18px;
+}
+
+@media (max-width: 320px) {
+    .header {
+      padding: 16px 16px 48px;
+      min-width: 288px;
+    }
+  }
+

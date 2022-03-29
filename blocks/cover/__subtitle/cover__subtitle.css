@@ -1,0 +1,50 @@
+.cover__subtitle {
+    position: absolute;
+    max-width: 360px;
+    max-height: 66px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+    color: #FFFFFF;
+    margin: 0;
+    padding: 429px 412px 245px 412px;
+}
+
+@media (max-width: 1024px) {
+    .cover__subtitle {
+        max-width: 360px;
+        max-height: 66px;
+        padding-left: 332px;
+        padding-right: 332px;
+        padding-top: 379px;
+        padding-bottom: 195px;
+  }
+}
+
+@media (max-width: 768px) {
+    .cover__subtitle {
+        max-width: 360px;
+        max-height: 66px;
+        padding-left: 204px;
+        padding-right: 204px;
+        padding-top: 299px;
+        padding-bottom: 115px;
+    }
+  }
+
+@media (max-width: 320px) {
+    .cover__subtitle {
+        max-width: 288px;
+        max-height: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 119px;
+        padding-bottom: 33px;
+        font-size: 14px;
+        line-height: 16px;
+        /* or 114% */
+    }
+  }
