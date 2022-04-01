@@ -13,7 +13,8 @@
 
 @media (max-width: 1024px) {
     .lead__title {
-        padding: 0 152px 32px;
+        padding-left: 104px;
+        padding-right: 104px;
     }
   }
 

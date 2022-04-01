@@ -1,11 +1,12 @@
 .header__lang-link_selected {
     color: #FFFFFF;
-    text-decoration: underline;
-    padding-right: 18px;
+    padding-left: 18px;
+    text-decoration: none;
 }
 
+/*fix
 @media (max-width: 320px) {
-    .header {
+    .header__lang-link_selected {
       padding: 16px 16px 48px;
       min-width: 288px;
     }

@@ -15,8 +15,6 @@
 
 @media (max-width: 1024px) {
     .cover__subtitle {
-        max-width: 360px;
-        max-height: 66px;
         padding-left: 332px;
         padding-right: 332px;
         padding-top: 379px;
@@ -26,8 +24,6 @@
 
 @media (max-width: 768px) {
     .cover__subtitle {
-        max-width: 360px;
-        max-height: 66px;
         padding-left: 204px;
         padding-right: 204px;
         padding-top: 299px;

@@ -3,7 +3,7 @@
     margin: 0;
     display: grid;
     gap: 48px 40px;
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
 }
 
 .place:last-of-type {
@@ -14,7 +14,7 @@
     .place {
         min-width: 984px;
         min-height: 660px;
-        grid-template-columns: 440px 1fr;
+        grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
   }
 }
 
@@ -22,8 +22,8 @@
     .place {
         min-width: 720px;
         min-height: 581px;
-        grid-template-columns: 340px 1fr;
-
+        grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+        padding-bottom: 73px;
     }
   }
 
@@ -31,7 +31,7 @@
     .place {
         padding-bottom: 50px;
         gap: 32px;
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(min-content, 288px);
     }
   }
 
