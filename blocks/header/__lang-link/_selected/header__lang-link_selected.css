@@ -3,12 +3,3 @@
     padding-left: 18px;
     text-decoration: none;
 }
-
-/*fix
-@media (max-width: 320px) {
-    .header__lang-link_selected {
-      padding: 16px 16px 48px;
-      min-width: 288px;
-    }
-  }
-
